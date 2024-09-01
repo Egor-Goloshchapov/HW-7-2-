@@ -7,7 +7,6 @@ friends[3] = "Egor";
 console.log(friends[3]);
 console.log(friends);
 
-const numers = [1 , 2 , 3 , 4 , 5];
 const result = [1 + 2 + 3 + 4 + 5];
 console.log(result); 
 
