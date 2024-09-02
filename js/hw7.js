@@ -19,16 +19,20 @@ console.log(friends);
 
 
 const res = [3 , 4 , 1 , 8 , 2];
-let n = 0;
-let result = 0;
-while (n < res.length) {
-    result = result + res[n]
-    n += 1
+let sum = 0;
+let i = 0;
+// let n = 0;
+// let result = 0;
+// while (n < res.length) {
+//     result = result + res[n]
+//     n += 1
+// }
+// console.log(result)
+
+for (let i = 0; i < res.length; i += 1) {
+sum = sum + res[i];
 }
-console.log(result)
-
-
-
+console.log(sum)
 
 
 
@@ -47,6 +51,19 @@ for (const sentence of sentences) {
 if (sentence.length > 5)
     console.log(sentence)
 }
+
+
+
+
+let numbers3 = [12, 45, 78, 23, 56, 89, 34, 67, 90, 11];
+let maxNumber = numbers3[0];
+for (let i = 1; i < numbers3.length; i++) {
+    if (numbers3[i] > maxNumber) {
+        maxNumber = numbers3[i];
+    }
+}
+console.log(maxNumber);
+
 
 
 
