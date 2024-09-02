@@ -55,7 +55,7 @@ if (sentence.length > 5)
 
 
 
-let numbers3 = [12, 45, 78, 23, 56, 89, 34, 67, 90, 11];
+let numbers3 = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ,10];
 let maxNumber = numbers3[1];
 for (let i = 1; i < numbers3.length; i++) {
     if (numbers3[i] > maxNumber) {
